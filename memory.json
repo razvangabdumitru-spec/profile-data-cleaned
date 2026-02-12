@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {
+      "type": "entity",
+      "entityType": "Person",
+      "name": "Junteng Liu",
+      "observations": [
+        "Ph.D. candidate, Hong Kong University of Science and Technology (HKUST), NLP Group (2024–present)",
+        "B.Eng., Shanghai Jiao Tong University (SJTU), 2020–2024, graduated June 2024",
+        "Research areas: Natural Language Processing, Machine Learning",
+        "Research interests: LLM reasoning, reinforcement learning, hallucination in vision-language models, truthfulness and interpretability of LLMs",
+        "Research Intern, MINIMAX (February 2025–present)",
+        "Research Intern, Tencent WXG (June 2024–September 2024), advised by Zifei Shan",
+        "Research Intern, Shanghai AI Lab (June 2023–December 2023), advised by Prof. Yu Cheng",
+        "First author: 'SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond' (2025, arXiv) — co-authors: Yuanxiang Fan; Zhuo Jiang; Han Ding; Yongyi Hu; Chi Zhang; Yiqi Shi; Shitong Weng; Aili Chen; Shiqi Chen; Yunan Huang; Mozhi Zhang; Pengyu Zhao; Junjie Yan; Junxian He",
+        "First author: 'On the Perception Bottleneck of VLMs for Chart Understanding' (2025, arXiv) — co-authors: Weihao Zeng; Xiwen Zhang; Yijun Wang; Zifei Shan; Junxian He",
+        "First author: 'On the Universal Truthfulness Hyperplane Inside LLMs' (2024, EMNLP) — co-authors: Shiqi Chen; Yu Cheng; Junxian He",
+        "Co-author: 'In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation' (2024, ICML) — authors: Shiqi Chen; Miao Xiong; Junteng Liu; Zhengxuan Wu; Teng Xiao; Siyang Gao; Junxian He",
+        "Co-author: 'C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models' (2023, NeurIPS) — authors: Yuzhen Huang; Yuzhuo Bai; Zhihao Zhu; Junlei Zhang; Jinghan Zhang; Tangjun Su; Junteng Liu; Chuancheng Lv; Yikai Zhang; Jiayi Lei; Yao Fu; Maosong Sun; Junxian He",
+        "Co-author: 'Composing Parameter-Efficient Modules with Arithmetic Operations' (2023, NeurIPS) — authors: Jinghan Zhang; Shiqi Chen; Junteng Liu; Junxian He",
+        "Recipient of Zhiyuan Honor Scholarship (SJTU)",
+        "Email: jliugi@connect.ust.hk",
+        "GitHub: https://github.com/Vicent0205 (username: Vicent0205)",
+        "Google Scholar: https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate",
+        "X (Twitter) handle: @junteng88716710"
+      ]
+    }
+  ],
+  "dedup_notes": [
+    "Merged duplicate person entries and deduplicated repeated observations about education, research interests, internships, publications, awards, and contact info.",
+    "Kept the more specific education entry 'B.Eng., Shanghai Jiao Tong University (SJTU), 2020–2024, graduated June 2024' over the shorter 'Graduated from Shanghai Jiao Tong University (SJTU) in June 2024'.",
+    "For internships, preserved date ranges and advisor names when available and removed shorter duplicate statements (e.g., 'Research Intern at MINIMAX (February 2025 - Present)' normalized to 'Research Intern, MINIMAX (February 2025–present)').",
+    "Publications were consolidated by title; when venue/date was present in one variant and not another, the more specific variant was retained (e.g., 'On the Universal Truthfulness Hyperplane Inside LLMs' kept with EMNLP 2024).",
+    "Contact information consolidated into canonical URL and handle formats; email kept as provided.",
+    "No facts were invented; all retained details are present in the original memory.json. Conflicting shorter variants were removed in favor of more detailed originals; removed variants are listed above."
+  ]
+}
